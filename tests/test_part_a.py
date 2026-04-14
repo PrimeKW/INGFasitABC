@@ -2,10 +2,8 @@ from unittest import TestCase, main
 
 from pathlib import Path
 import sys 
-sys.path.append(str(Path().parent.absolute()))
-
 from smarthouse.domain import SmartHouse
-from demo_house import DEMO_HOUSE as h
+from tests.demo_house import DEMO_HOUSE as h
 
 class TestPartA(TestCase):
 
